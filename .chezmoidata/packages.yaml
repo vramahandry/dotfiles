@@ -16,6 +16,7 @@ packages:
     - kind
     - helm
     - lima
+    - kubectx #kubens is installed with it
     casks:
     - docker
     - rectangle
