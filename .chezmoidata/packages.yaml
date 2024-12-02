@@ -1,5 +1,7 @@
 packages:
   darwin:
+    taps:
+    - derailed/k9s
     brews:
     - git
     - tree
@@ -17,6 +19,7 @@ packages:
     - helm
     - lima
     - kubectx #kubens is installed with it
+    - derailed/k9s/k9s
     casks:
     - docker
     - rectangle
