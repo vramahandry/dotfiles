@@ -116,5 +116,7 @@ source $ZSH/oh-my-zsh.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 eval "$(zoxide init zsh)"
-
 alias cd="z"
+
+export GOPATH=$HOME/go
+export GO111MODULE=on
