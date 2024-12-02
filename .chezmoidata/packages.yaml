@@ -1,0 +1,31 @@
+packages:
+  darwin:
+    brews:
+    - git
+    - tree
+    - vim
+    - wireguard-tools
+    - zellij
+    - zoxide
+    - fzf
+    - bat
+    - go
+    - awscli
+    - terraform
+    - kubectl
+    casks:
+    - rectangle
+    - devtoys
+    - raycast
+    - tunnelblick
+    - visual-studio-code
+    - slack
+    - flameshot
+    - arc
+    vscode_plugins:
+    - golang.go
+    - eamodio.gitlens
+    - mhutchie.git-graph
+
+
+ 
