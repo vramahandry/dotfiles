@@ -13,6 +13,7 @@ packages:
     - awscli
     - terraform
     - kubectl
+    - kind
     casks:
     - docker
     - rectangle
