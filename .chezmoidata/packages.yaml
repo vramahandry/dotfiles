@@ -34,3 +34,4 @@ packages:
     - lima
     - kubectx #kubens is installed with it
     - derailed/k9s/k9s
+    - krew
