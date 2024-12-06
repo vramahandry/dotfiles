@@ -122,3 +122,4 @@ export GOPATH=$HOME/go
 export GO111MODULE=on
 
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+export PATH=$PATH:$GOPATH/bin
