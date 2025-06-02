@@ -2,6 +2,7 @@ packages:
   darwin:
     taps:
     - derailed/k9s
+    - warrensbox/tap
     casks:
     - docker
     - rectangle
@@ -12,6 +13,7 @@ packages:
     - slack
     - flameshot
     - arc
+    - zen
     vscode_plugins:
     - golang.go
     - eamodio.gitlens
@@ -36,3 +38,4 @@ packages:
     - derailed/k9s/k9s
     - krew
     - goreleaser/tap/goreleaser
+    - warrensbox/tap/tgswitch
