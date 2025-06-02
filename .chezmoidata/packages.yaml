@@ -1,8 +1,8 @@
 packages:
   darwin:
     taps:
-    - derailed/k9s
-    - warrensbox/tap
+    # - derailed/k9s
+    # - warrensbox/tap
     casks:
     - docker
     - rectangle
@@ -29,7 +29,6 @@ packages:
     - bat
     - go
     - awscli
-    - terraform
     - kubectl
     - kind
     - helm
@@ -39,3 +38,4 @@ packages:
     - krew
     - goreleaser/tap/goreleaser
     - warrensbox/tap/tgswitch
+    - warrensbox/tap/tfswitch
