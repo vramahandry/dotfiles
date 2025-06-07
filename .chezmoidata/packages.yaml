@@ -15,10 +15,13 @@ packages:
     - arc
     - zen
     - maccy
+    - keepassxc
     vscode_plugins:
     - golang.go
     - eamodio.gitlens
     - mhutchie.git-graph
+    - hashicorp.terraform
+    - doggy8088.k8s-snippets
     brews:
     - git
     - tree
