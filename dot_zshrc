@@ -127,6 +127,10 @@ export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$HOME/.local/bin
 export PATH="$PATH:/Users/vramahandry/bin"
+alias tg='terragrunt'
 alias tgdel='find ./ -type d -name ".terragrunt-cache" -exec rm -rf {} +'
 alias tfdel='find ./ -type d -name ".terraform" -exec rm -rf {} +'
 eval "$(mise activate zsh)"
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /Users/vramahandry/bin/terragrunt terragrunt
