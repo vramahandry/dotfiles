@@ -13,9 +13,11 @@ packages:
     - slack
     - flameshot
     - arc
-    - zen
+    - firefox
     - maccy
     - keepassxc
+    - session-manager-plugin
+    - dbeaver-community
     vscode_plugins:
     - golang.go
     - eamodio.gitlens
@@ -44,3 +46,11 @@ packages:
     - goreleaser/tap/goreleaser
     - warrensbox/tap/tgswitch
     - warrensbox/tap/tfswitch
+    - common-fate/granted/granted
+    - pre-commit
+    - mise
+    - coreutils
+    - xo/xo/usql
+    - node
+    - gh
+    - ipcalc
